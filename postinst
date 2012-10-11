@@ -1,0 +1,22 @@
+#! /bin/sh
+set -e
+
+if [ `command -v gsettings` ]; then
+    sudo -u $SUDO_USER gsettings set org.gnome.desktop.background picture-uri file:///usr/share/backgrounds/mpossible-synergy.png
+    echo "Set wallpaper for user $SUDO_USER" 1>&2
+fi
+
+case "$1" in
+    configure)
+        # Workaround LP: #746028
+        touch /usr/share/backgrounds/mpossible-synergy.png
+    ;;
+
+    abort-upgrade|abort-deconfigure|abort-remove)
+    ;;
+
+    *)
+        echo "$0 called with unknown argument \`$1'" 1>&2
+        exit 1
+    ;;
+esac

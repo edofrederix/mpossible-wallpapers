@@ -1,0 +1,16 @@
+mPossible wallpapers - the default mPossible Gnome wallpaper
+
+Written by:
+
+Edo Frederix
+mPossible Home Theater PC
+http://www.mpossible.nl
+
+---- Summary -----------------------------------------------------------------
+
+This is a Ubuntu package from mPossible including the default mPossible
+background for Gnome.
+
+---- Usage -------------------------------------------------------------------
+
+Run the build script to create the Debian package

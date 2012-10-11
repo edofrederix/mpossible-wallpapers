@@ -1,0 +1,9 @@
+Package: <!-- packagename -->
+Version: <!-- version -->
+Architecture: <!-- architecture -->
+Maintainer: Edo Frederix <edofrederix@gmail.com>
+Suggests: ubuntu-wallpapers-oneiric, ubuntu-wallpapers-natty, ubuntu-wallpapers-maverick, ubuntu-wallpapers-lucid, ubuntu-wallpapers-karmic
+Section: metapackages
+Priority: optional
+Description: mPossible Wallpapers
+ The default mPossible wallpaper.
