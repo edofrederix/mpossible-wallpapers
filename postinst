@@ -2,7 +2,7 @@
 set -e
 
 if [ `command -v gsettings` ]; then
-    sudo -u $SUDO_USER gsettings set org.gnome.desktop.background picture-uri file:///usr/share/backgrounds/mpossible-synergy.png
+    sudo -u mpossible gsettings set org.gnome.desktop.background picture-uri file:///usr/share/backgrounds/mpossible-synergy.png
     echo "Set wallpaper for user $SUDO_USER" 1>&2
 fi
 
